@@ -42,25 +42,24 @@
   <ItemGroup>
     <Compile Include="Client\Correlation\AsyncCorrelation.cs" />
     <Compile Include="Client\HttpClientProvider.cs" />
-    <Compile Include="Client\Requests\Creation\CorrelatingRequestAssembler.cs" />
-    <Compile Include="Client\Requests\Filter\FilterChain.cs" />
-    <Compile Include="Client\Requests\Filter\FilterChainFactory.cs" />
+    <Compile Include="Client\Requests\Chain\FilterChain.cs" />
+    <Compile Include="Client\Requests\Chain\FilterChainFactory.cs" />
+    <Compile Include="Client\Requests\Filters\AsyncLocalCorrelatingRequestAssembler.cs" />
+    <Compile Include="Client\Requests\Filters\AuthorizingRequestFilter.cs" />
+    <Compile Include="Client\Requests\Filters\CorrelatingRequestFilter.cs" />
     <Compile Include="Client\Requests\IFilterChain.cs" />
     <Compile Include="Client\Requests\IFilterChainFactory.cs" />
     <Compile Include="Client\Requests\IRequestFilter.cs" />
+    <Compile Include="Client\Requests\Filters\UserAgentRequestFilter.cs" />
     <Compile Include="Client\Security\ConnectivityStatus.cs" />
     <Compile Include="Client\Security\IAuthTokenProvider.cs" />
-    <Compile Include="Client\Requests\Filter\AuthorizingRequestFilter.cs" />
-    <Compile Include="Client\Requests\Creation\AsyncLocalCorrelatingRequestAssembler.cs" />
     <Compile Include="Client\IHttpClientProvider.cs" />
-    <Compile Include="Client\Requests\IRequestAssembler.cs" />
     <Compile Include="Client\Providers\HttpClientProvider.cs" />
     <Compile Include="Client\Service\HttpService.cs" />
     <Compile Include="Client\Service\IHttpService.cs" />
     <Compile Include="Client\Service\SampleBaseService.cs" />
     <Compile Include="ISystemConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Client\Requests\Creation\TaxUserAgentRequestAssembler.cs" />
     <Compile Include="Client\Security\AuthToken.cs" />
   </ItemGroup>
   <ItemGroup />

@@ -15,6 +15,6 @@ namespace HTTP.Client.Requests
     public interface IRequestFilter
     {
         
-        Task<HttpResponseMessage> Filter(HttpRequestMessage message, IFilterChain chain, CancellationToken cancellationToken = default(CancellationToken));
+        Task<HttpResponseMessage> Filter(HttpRequestMessage message, IFilterChain chain);
     }
 }

@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using HTTP.Client.Requests;
-using HTTP.Client.Requests.Filter;
+using HTTP.Client.Requests.Filters;
 
 namespace HTTP.Client.Service
 {
