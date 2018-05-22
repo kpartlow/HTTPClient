@@ -44,7 +44,7 @@
     <Compile Include="Client\HttpClientProvider.cs" />
     <Compile Include="Client\Requests\Chain\FilterChain.cs" />
     <Compile Include="Client\Requests\Chain\FilterChainFactory.cs" />
-    <Compile Include="Client\Requests\Filters\AsyncLocalCorrelatingRequestAssembler.cs" />
+    <Compile Include="Client\Requests\Filters\AsyncLocalCorrelatingRequestFilter.cs" />
     <Compile Include="Client\Requests\Filters\AuthorizingRequestFilter.cs" />
     <Compile Include="Client\Requests\Filters\CorrelatingRequestFilter.cs" />
     <Compile Include="Client\Requests\IFilterChain.cs" />

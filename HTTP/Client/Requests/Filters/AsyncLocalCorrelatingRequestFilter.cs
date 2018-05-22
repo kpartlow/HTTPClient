@@ -6,9 +6,9 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace HTTP.Client.Requests.Filter
+namespace HTTP.Client.Requests.Filters
 {
-    public class AsyncLocalCorrelatingRequestAssembler : IRequestFilter
+    public class AsyncLocalCorrelatingRequestFilter : IRequestFilter
     {
         public const string CorrelationIdHttpHeaderName = "X-Correlation-Id";
 

@@ -5,7 +5,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HTTP.Client.Requests.Filter
+namespace HTTP.Client.Requests.Filters
 {
     public class CorrelatingRequestFilter : IRequestFilter
     {

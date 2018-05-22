@@ -8,7 +8,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using HTTP.Client.Security;
 
-namespace HTTP.Client.Requests
+namespace HTTP.Client.Requests.Filters
 {
     public class AuthorizingRequestFilter : IRequestFilter
     {
