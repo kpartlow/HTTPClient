@@ -16,7 +16,6 @@ namespace HTTP.Client.Requests.Filters
         public async Task<HttpResponseMessage> Filter(HttpRequestMessage message, IFilterChain chain)
         {
             message.Headers.Add("User-Agent", userAgent);
-
             return await chain.DoFilter(message);
         }
     }
